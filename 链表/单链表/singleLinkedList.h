@@ -1,4 +1,4 @@
-#pragma once
+
 #ifndef SINGLE_LINKED_LIST
 #define SINGLE_LINKED_LIST
 
@@ -116,7 +116,7 @@ public:
 			std::cout << tmp->data << "-";
 			tmp = tmp->next;
 		}
-		cout << tmp->data << endl;
+		std::cout << tmp->data << std::endl;
 	}
 
 

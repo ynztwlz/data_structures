@@ -1,0 +1,6 @@
+*.exe
+*test
+test*
+.vscode
+.vs
+.idea
